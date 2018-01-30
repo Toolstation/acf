@@ -167,8 +167,8 @@ class Image extends BasicField implements FieldInterface
     protected function fillMetadataFields(array $imageData)
     {
         $this->filename = basename($imageData['file']);
-        $this->width = $imageData['width'];
-        $this->height = $imageData['height'];
-        $this->sizes = $imageData['sizes'];
+        $this->width = isset($imageData['width']) ? $imageData['width'] : null;
+        $this->height = isset($imageData['height']) ? $imageData['height']: null;
+        $this->sizes = isset($imageData['sizes']) ? $imageData['sizes']: null;
     }
 }

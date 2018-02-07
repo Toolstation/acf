@@ -1,7 +1,7 @@
 {
-  "name": "toolstation/acf",
+  "name": "toolstation/tsacf",
   "description": "Advanced Custom Field (ACF) plugin for Corcel",
-  "homepage": "http://github.com/corcel/acf",
+  "homepage": "http://github.com/toolstation/tsacf",
   "license": "MIT",
   "authors": [
     {
